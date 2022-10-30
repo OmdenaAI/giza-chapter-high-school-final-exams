@@ -11,8 +11,8 @@ Note : Please Follow the below guidelines to create task folders
 
 | Task No| Task Name | Details |
 |-|-|-|
-|1|         |         |
-|2|         |         |
-|3|         |         |
-|4|         |         |
-|5|Political Rationale| The entire basis of the political rationale is to create a document upon which we could use as a basis to know if the direction of our current application is viable or not|
+|1| Work with API - HTTP Requests | Learn how to send multiple http requests. With web scraping at that scale the need figure how to send plenty of requests to the server without triggering DoS preventions systems is a must.|
+|2| Web scraping - Data engineering| Learn about web scraping libraries. Web scraping is the process of using scripts to extract content and data from a websites. The process includes interaction with libraries like beautifulsoup and selenium.|
+|3| EDA - Visualize the results | Visualize to answer questions. Visualization is a powerful tool using charts or graphs to convey meaning is simple yet vastly informative and to deliver the insights correctly, data scientists need to master the visualization techniques.|
+|4| Finalize the project - Deliver the insights| Deliver the insights and finalize the research. the goal of the delivery of insights is to help students who lives in different cities to determine what are the best schools to attend in terms of schools average.|
+---
