@@ -15,4 +15,3 @@ Note : Please Follow the below guidelines to create task folders
 |2| Web scraping - Data engineering| Learn about web scraping libraries. Web scraping is the process of using scripts to extract content and data from a websites. The process includes interaction with libraries like beautifulsoup and selenium.|
 |3| EDA - Visualize the results | Visualize to answer questions. Visualization is a powerful tool using charts or graphs to convey meaning is simple yet vastly informative and to deliver the insights correctly, data scientists need to master the visualization techniques.|
 |4| Finalize the project - Deliver the insights| Deliver the insights and finalize the research. the goal of the delivery of insights is to help students who lives in different cities to determine what are the best schools to attend in terms of schools average.|
----
