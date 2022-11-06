@@ -4,8 +4,8 @@
 <table> 
   <tr><td colspan="2">Tools developed to scrap the result </td></tr>
   <tr>
-    <td>Tools></td>
-    <td>Developer></td>
+    <td>Tools</td>
+    <td>Developer</td>
     <td>Scrapped site</td>
 <tr>
 <td><a href ='https://github.com/Soliman2020/Egypt_high_school_results_software'>Egypt_high_school_results_software</td>
