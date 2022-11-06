@@ -3,6 +3,10 @@
 # 01 Tools developed to scrap the result:
 <table> 
   <tr><td colspan="2">Tools developed to scrap the result </td></tr>
+  <tr>
+    <td>Tools></td>
+    <td>Developer></td>
+    <td>Scrapped site</td>
 <tr>
 <td><a href ='https://github.com/Soliman2020/Egypt_high_school_results_software'>Egypt_high_school_results_software</td>
 <td><a href ='https://omdenachapter-hpe1429.slack.com/team/U048MB6QFB4'>Mohamed Soliman</td>
@@ -19,7 +23,9 @@
 <td><a href = "https://natega.cairo24.com/"> scrap fromnateg24 website</td>
 </tr>
 </table>
+
 ##natiga_cairo24_V1 
+
 This is a windows exe proram to scrap the secand exam from https://natega.cairo24.com/ It svae the data in 3 files:
 <li>01 Abdo-Cairo24-100000-106443 (This is the required data that include student names and scores)
 <li>01 Abdo_Cairo24_notfound_from100000_to_106443 (This is the seat number that isn't exist in this website)
