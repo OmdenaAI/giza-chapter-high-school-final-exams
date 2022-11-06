@@ -5,18 +5,18 @@
   <tr><td colspan="2">Tools developed to scrap the result </td></tr>
 <tr>
 <td><a href ='https://github.com/Soliman2020/Egypt_high_school_results_software'>Egypt_high_school_results_software</td>
-<td><a href = 'https://omdenachapter-hpe1429.slack.com/team/U048MB6QFB4'>Mohamed Soliman</td>
-<td>< a href = "https://natega.cairo24.com/"> scrap from nateg24 website</td>
+<td><a href ='https://omdenachapter-hpe1429.slack.com/team/U048MB6QFB4'>Mohamed Soliman</td>
+<td><a href ="https://natega.cairo24.com/"> scrap from nateg24 website</td>
 </tr>
 <tr>
 <td> <a href ='https://github.com/alyeyad/high-school-results-scraper'>high-school-results-scraper </td>
 <td><a href='https://omdenachapter-hpe1429.slack.com/team/U0486JANZQX'>Aly Eyad</td>
-<td>< a href = "https://shbabbek.com/natega/"> scrap shbabbek website</td>
+<td><a href = "https://shbabbek.com/natega/"> scrap shbabbek website</td>
 </tr>
 <tr>
 <td><a href='https://github.com/abdo5/Egypt-Secondary-School-Result-DataSet2022'>natiga_cairo24_V1</td>
 <td><a href='https://omdenachapter-hpe1429.slack.com/team/U049CLMLYTA'>Abdelmenem Elgabry</td>
-<td>< a href = "https://natega.cairo24.com/"> scrap fromnateg24 website</td>
+<td><a href = "https://natega.cairo24.com/"> scrap fromnateg24 website</td>
 </tr>
 </table>
 ##natiga_cairo24_V1 
