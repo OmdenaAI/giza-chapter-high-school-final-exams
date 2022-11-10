@@ -47,5 +47,7 @@ This file contains  631668 record scrapped from shbabbik website without names
 <B> 00_secondarySchool_ntiga2022 from_100000-999999_with names
  Added 631668 record scrapped from shbabbik website with names
  
- 
- 
+## 03 Abdo natiga34 v3_no dublicate_11_10_2022
+scrapped result for the second exam from natiga24
+An arabic version and,
+An English version without names for python ( all values translated except 2 columns, school name and administration), 
