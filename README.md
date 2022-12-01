@@ -26,7 +26,7 @@ Highly interactive web based Data Analysis app for high school education in Egyp
 
 ## About The Dataset
 
-The third year in secondary school or as it is called in arabic [Thanaweya Amma(ثانوية عامة)](https://en.wikipedia.org/wiki/Thanaweya_Amma) , which series of standardized tests in Egypt that lead to the General Secondary Education Certificate for public secondary schools and serves as the entrance examination for Egyptian public universities. The data results were scraped in a collaborative fashion and anonymize from different website that hosts the data publicly.
+The third year in secondary school or as it is called in arabic [Thanaweya Amma(ثانوية عامة)](https://en.wikipedia.org/wiki/Thanaweya_Amma), which is a series of standardized tests in Egypt that lead to the General Secondary Education Certificate for public secondary schools and serves as the entrance examination for Egyptian public universities. The data results were scraped in a collaborative fashion and anonymize from different website that hosts the data publicly.
 
 The dataset and the collection procedures is available on [kaggle datasets](https://www.kaggle.com/datasets/mohamedahmedx2/high-school-public-results-2022-eg).
 
