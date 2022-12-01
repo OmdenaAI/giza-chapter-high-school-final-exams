@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import 
 
 st.title('Egypt High School Data Analysis 2022 🏫')
 
@@ -18,17 +19,30 @@ data_load_state = st.text('Loading data...')
 data = load_data(data_url)
 data_load_state.text('Loading data...done!')
 
-st.header('Top 10 schools for each districts')
+col1, col2, col3 = st.columns(3)
+with col1:
+    city = st.selectbox('Select city:', data['city'].unique())
+with col2:
+    branch = st.selectbox('Select branch:', data['branch'].unique()) 
+with col3:
+    no_schools = st.slider("Number of schools:", min_value=1, max_value=50, step=1, value=10)
 
-city = st.selectbox('Select city:', data['city'].unique())
-branch = st.selectbox('Select branch:', data['branch'].unique()) 
+st.header(f'Top {no_schools} schools in \'{city}\' for \'{branch}\' branch   ')
+
+
 
 data_subset = data.loc[(data['city'] == city) & (data['branch'] == branch)]
-data_subset = data_subset.groupby('school_name')['Percentage'].mean().sort_values(ascending=False)
-data_subset = data_subset.rename('Average Percentage')
+#data_subset = data_subset.groupby('school_name')['Percentage'].median().sort_values(ascending=False)
+data_subset = data_subset.groupby(['school_name', 'gender'])['Percentage'].median().unstack().sort_values(by='F', ascending=False)
+data_subset
 
-st.bar_chart(data=data_subset.head(10))
+#data_subset = data_subset.rename('Average Percentage')
 
-#st.write(data_subset)
+
+
+
+
+
+st.bar_chart(data_subset.head(no_schools))
 
 
