@@ -32,10 +32,12 @@ data_subset = data.loc[(data['city'] == city) & (data['branch'] == branch)]
 data_subset = data_subset.groupby('school_name')['Percentage'].median().sort_values(ascending=False).head(no_schools)
 fig = px.bar(
     data_subset, y=data_subset.index, x='Percentage', orientation='h',
-    labels={'school_name':'School names','Percentage':'Average Percentage'},
+    labels={'school_name':'','Percentage':'Average Percentage'},
     color_discrete_sequence=['#F63366']
     )
+
 fig.update_layout(yaxis=dict(autorange="reversed"))
+fig.update_layout(title_text='School names', title_x=0.5)
 
 st.plotly_chart(fig)
 
