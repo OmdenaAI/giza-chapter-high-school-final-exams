@@ -1,8 +1,6 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-import 
+import plotly.express as px
 
 st.title('Egypt High School Data Analysis 2022 🏫')
 
@@ -32,17 +30,14 @@ st.header(f'Top {no_schools} schools in \'{city}\' for \'{branch}\' branch   ')
 
 
 data_subset = data.loc[(data['city'] == city) & (data['branch'] == branch)]
-#data_subset = data_subset.groupby('school_name')['Percentage'].median().sort_values(ascending=False)
-data_subset = data_subset.groupby(['school_name', 'gender'])['Percentage'].median().unstack().sort_values(by='F', ascending=False)
-data_subset
+data_subset = data_subset.groupby('school_name')['Percentage'].median().sort_values(ascending=False).head(no_schools)
+fig = px.bar(
+    data_subset, y=data_subset.index, x='Percentage', orientation='h',
+    labels={'school_name':'School names','Percentage':'Average Percentage'},
+    color_discrete_sequence=['#F63366']
+    )
+fig.update_layout(yaxis=dict(autorange="reversed"))
 
-#data_subset = data_subset.rename('Average Percentage')
-
-
-
-
-
-
-st.bar_chart(data_subset.head(no_schools))
+st.plotly_chart(fig)
 
 
