@@ -13,9 +13,8 @@ def load_data(data_url):
     return data
 
 
-data_load_state = st.text('Loading data...')
-data = load_data(data_url)
-data_load_state.text('Loading data...done!')
+with st.spinner('Preparing data...'):
+    data = load_data(data_url)
 
 col1, col2, col3 = st.columns(3)
 with col1:
