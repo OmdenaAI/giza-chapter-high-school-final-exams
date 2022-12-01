@@ -6,6 +6,8 @@ Highly interactive web based Data Analysis app for high school education in Egyp
 
 ![screenshot](other/preview_image.jpg)
 
+## Link to App on Streamlit Cloud
+
 ## Instructions
 
 1. Install
@@ -26,7 +28,7 @@ Highly interactive web based Data Analysis app for high school education in Egyp
 
 The third year in secondary school or as it is called in arabic [Thanaweya Amma(ثانوية عامة)](https://en.wikipedia.org/wiki/Thanaweya_Amma) , which series of standardized tests in Egypt that lead to the General Secondary Education Certificate for public secondary schools and serves as the entrance examination for Egyptian public universities. The data results were scraped in a collaborative fashion and anonymize from different website that hosts the data publicly.
 
-The dataset is available on [kaggle datasets](https://www.kaggle.com/datasets/mohamedahmedx2/high-school-public-results-2022-eg)
+The dataset and the collection procedures is available on [kaggle datasets](https://www.kaggle.com/datasets/mohamedahmedx2/high-school-public-results-2022-eg).
 
 ## Motivation
 
@@ -34,7 +36,8 @@ This code was written for educational purposes as a part of [Omdena challenge](h
 
 ## Auther
 
-[Mohamed Ahmed](https://www.linkedin.com/in/mohamedahmedx2/)
+[M. A. Ali](https://www.linkedin.com/in/mohamedahmedx2/)
 
 ## license
 
+Licensed under the MIT License Copyright (c) 2022 M. A. Ali
