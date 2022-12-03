@@ -4,7 +4,7 @@ import plotly.express as px
 
 st.title('Egypt High School Data Analysis 2022 🏫')
 
-data_location = 'dataset\High_School_Public_Results_2022_EG_both_attempts.csv.zip'
+data_location = 'dataset\\High_School_Public_Results_2022_EG_both_attempts.csv.zip'
 
 @st.cache
 def load_data(data_url):
