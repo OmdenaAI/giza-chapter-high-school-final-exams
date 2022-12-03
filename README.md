@@ -6,7 +6,9 @@ Highly interactive web based Data Analysis app for high school education in Egyp
 
 ![screenshot](other/preview_image.jpg)
 
-## [Link to App on Streamlit Cloud](https://mightystud-high-school-data-analysis-streamlit-main-page-wqneeb.streamlit.app/)
+## Demo App
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mightystud-high-school-data-analysis-streamlit-main-page-wqneeb.streamlit.app/)
 
 ## Instructions
 
