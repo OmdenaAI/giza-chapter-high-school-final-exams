@@ -41,4 +41,5 @@ fig.update_layout(title_text='School names', title_x=0.5)
 
 st.plotly_chart(fig)
 
+st.caption('The graph shows the overall average percentage of each school ranked from top to lowest')
 

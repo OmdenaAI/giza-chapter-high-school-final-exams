@@ -13,6 +13,8 @@ with st.spinner('Analysing data | Drawing graphs...'):
     nbins=int(data[subject].max()))
     st.write(fig)
 
+st.caption('The graph shows the distrubution of grades and the averages in both genders')
+
 M_mean = round(data[data['gender'] == 'M'][subject].mean(), 2)
 F_mean = round(data[data['gender'] == 'F'][subject].mean(), 2)
 Both_mean = round(data[subject].mean(),2)
