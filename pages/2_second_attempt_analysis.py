@@ -17,7 +17,7 @@ with st.spinner('Analysing data | Drawing graphs...'):
     fig = px.histogram(data_subset, x='improve in ' + subject, color_discrete_sequence=['#F63366'])
     st.write(fig)
 
-st.caption('The graph shows the distrubution of grades gained in the second attempt in respect with first exam')
+st.caption('The graph shows the distrubution of grades gained in the second attempt in respect with the first exam')
 
 col1, col2 = st.columns(2)
 with col1:
