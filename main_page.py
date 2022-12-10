@@ -12,7 +12,7 @@ with st.spinner('Preparing data...'):
     data = load_data(data_location)
 
 if __name__=="__main__":
-    st.title('Egypt High School Data Analysis 2022 🏫')
+    st.title('Egypt High School Data Analysis 2022 🏫🏫')
     col1, col2, col3 = st.columns(3)
     with col1:
         city = st.selectbox('Select city:', data['city'].unique())
