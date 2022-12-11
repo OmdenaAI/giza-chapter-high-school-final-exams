@@ -8,7 +8,7 @@ Highly interactive web based Data Analysis app for high school education in Egyp
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://mightystud-high-school-data-analysis-streamlit-main-page-h9dzjq.streamlit.app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://srctaskstask-4-deliver-the-insights-and-finalize-the-p-qcxeau.streamlit.app/)
 
 ## Instructions
 
@@ -35,11 +35,3 @@ The dataset and the collection procedures is available on [kaggle datasets](http
 ## Motivation
 
 This code was written for educational purposes as a part of [Omdena challenge](https://omdena.com/chapter-challenges/high-school-thanaweya-amma-data-analysis/).
-
-## Auther
-
-[M. A. Ali](https://www.linkedin.com/in/mohamedahmedx2/)
-
-## license
-
-Licensed under the MIT License Copyright (c) 2022 M. A. Ali

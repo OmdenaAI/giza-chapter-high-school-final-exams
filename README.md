@@ -8,7 +8,7 @@
   - Create a README.md with a table containing information table about all contributions for the task.
 - If you're contributing for a task, please make sure to store in relavant location and update the README.md information table with your contribution details.
 - Make sure your File names(jupyter notebooks, python files, data sheet file names etc) has proper naming to help others in easily identifing them.
-- Please restrict yourself from creating unnessesary folders other than in 'tasks' folder (as above mentioned naming convention) to avoid confusion. 
+- Please restrict yourself from creating unnessesary folders other than in 'tasks' folder (as above mentioned naming convention) to avoid confusion.
 
 ## Project Structure
 
@@ -40,7 +40,7 @@
 
 - Original          - Folder Containing old/completed Omdena challenge code.
 - Reports           - Folder to store all Final Reports of this project
-- Data              - Folder to Store all the data collected and used for this project 
+- Data              - Folder to Store all the data collected and used for this project
 - Docs              - Folder for Task documentations, Meeting Presentations and task Workflow Documents and Diagrams.
 - References        - Folder to store any referneced code/research papers and other useful documents used for this project
 - Tasks             - Master folder for all tasks
