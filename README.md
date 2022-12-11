@@ -1,5 +1,9 @@
 # Giza, Egypt - Data Analysis System for the High School Final Exams in Egypt
 
+## Demo App
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://srctaskstask-4-deliver-the-insights-and-finalize-the-p-qcxeau.streamlit.app/)
+
 ## Contribution Guidelines
 
 - Have a Look at the [project structure](#project-structure) and [folder overview](#folder-overview) below to understand where to store/upload your contribution
